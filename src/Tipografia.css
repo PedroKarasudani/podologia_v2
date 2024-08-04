@@ -1,0 +1,32 @@
+.font-1-a {
+  font: 400 1rem/1.25 "Poppins", sans-serif;
+}
+
+.font-1-b {
+  font: 400 1.25rem/1.25 "Poppins", sans-serif;
+}
+
+.font-1-c {
+  font: 500 2rem/1 "Poppins", sans-serif;
+}
+
+.font-1-d {
+  font: 400 1.25rem/1.5 "Poppins", sans-serif;
+}
+
+.font-1-e {
+  font: 600 2rem/1 "Poppins", sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font-2-a {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  font-style: italic;
+}
+
+.font-2-b {
+  font: 500 1.25rem/1.8 "Roboto", sans-serif;
+}

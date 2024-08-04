@@ -1,0 +1,40 @@
+.headerBg {
+  background: var(--c10);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.headerMenu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerMenuAtivo {
+  position: relative;
+}
+
+.headerMenuAtivo:hover::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--c3);
+  margin-top: 10px;
+  transition: 3s;
+  position: absolute;
+}
+
+.headerMenu .ativo:hover {
+  background-color: var(--p2);
+}
+
