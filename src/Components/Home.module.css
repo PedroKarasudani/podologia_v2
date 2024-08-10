@@ -38,7 +38,7 @@
     padding: 36px 40px;
     border-radius: 0 0 4px 4px;
   }
-  .introducao {
+  .introducao img {
     width: 100%;
     max-height: 200px;
     object-fit: cover;
