@@ -5,6 +5,7 @@ import './Tipografia.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
     </div>
   );
